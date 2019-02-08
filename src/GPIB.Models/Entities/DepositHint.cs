@@ -12,7 +12,7 @@ namespace GPIB.Repository
 
         public Decimal DepositAmount { get; set; }
 
-        public PayCycle Cadence { get; set; }
+        //public PayCycle Cadence { get; set; }
 
         public String PayDay { get; set; }
     }
