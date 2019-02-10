@@ -2,7 +2,7 @@ using System;
 
 namespace GPIB.Models
 {
-    public class Address
+    public class Address : IAddress
     {
         public int ID { get; set; }
 

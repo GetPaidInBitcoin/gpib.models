@@ -2,7 +2,7 @@
 
 namespace GPIB.Models
 {
-    public class DepositHint : BaseUserEntity
+    public class DepositHint : BaseUserEntity, IDepositHint
     {
         public String EmployerName { get; set; }
 

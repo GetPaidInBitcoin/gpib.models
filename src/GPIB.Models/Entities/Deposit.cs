@@ -2,7 +2,7 @@ using System;
 
 namespace GPIB.Models
 {
-    public class Deposit
+    public class Deposit : IDeposit
     {
         public DateTime Created { get; set; }
 

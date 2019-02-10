@@ -2,7 +2,7 @@ using System;
 
 namespace GPIB.Models
 {
-    public class Transfer : BaseEntity
+    public class Transfer : BaseEntity, ITransfer
     {
         public String Coin { get; set; }
         
