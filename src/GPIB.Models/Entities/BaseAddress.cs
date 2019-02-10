@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace GPIB.Repository
+namespace GPIB.Models
 {
     public abstract class BaseAddress : BaseUserEntity
     {

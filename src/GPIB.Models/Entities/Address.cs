@@ -1,8 +1,8 @@
 using System;
 
-namespace GPIB.Models.Entities
+namespace GPIB.Models
 {
-    public class Address : IAddress
+    public class Address
     {
         public int ID { get; set; }
 

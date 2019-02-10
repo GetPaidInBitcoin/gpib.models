@@ -1,6 +1,6 @@
 using System;
 
-namespace GPIB.Repository
+namespace GPIB.Models
 {
     public class Transfer : BaseEntity
     {
