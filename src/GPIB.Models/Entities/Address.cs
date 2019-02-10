@@ -1,14 +1,23 @@
 using System;
 
-namespace GPIB.Repository
+namespace GPIB.Models.Entities
 {
-    public class Address : BaseAddress
+    public class Address : IAddress
     {
+        public int ID { get; set; }
+
+        public Guid UserID { get; set; }
+        
+        public short Percent { get; set; }
+
+        public String Label { get; set; }
+
+        public Boolean Deleted { get; set; }
+        
+        public string Address1 { get; set; }
+        
         public Address()
         {
-            //this.Percent = 100;
         }
-
-        public string Address1 { get; set; }
     }
 }
