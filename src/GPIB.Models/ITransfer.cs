@@ -6,6 +6,8 @@ namespace GPIB.Models
     {
         int ID { get; set; }
         
+        Guid UserID { get; set; }
+        
         String Coin { get; set; }
         
         decimal Amount { get; set; }
