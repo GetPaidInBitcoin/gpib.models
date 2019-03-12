@@ -2,12 +2,8 @@ using System;
 
 namespace GPIB.Models
 {
-    public interface IDeposit
-    {
-        int ID { get; set; }
-
-        Guid UserID { get; set; }
-        
+    public interface IDeposit : IUserEntity
+    {   
         DateTime Created { get; set; }
         
         decimal Amount { get; set; }

@@ -2,12 +2,8 @@ using System;
 
 namespace GPIB.Models
 {
-    public interface ITransfer
-    {
-        int ID { get; set; }
-        
-        Guid UserID { get; set; }
-        
+    public interface ITransfer : IUserEntity
+    {   
         String Coin { get; set; }
         
         decimal Amount { get; set; }

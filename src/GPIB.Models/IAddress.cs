@@ -2,12 +2,8 @@ using System;
 
 namespace GPIB.Models
 {
-    public interface IAddress
+    public interface IAddress : IUserEntity
     {
-        int ID { get; set; }
-
-        Guid UserID { get; set; }
-        
         short Percent { get; set; }
 
         String Label { get; set; }

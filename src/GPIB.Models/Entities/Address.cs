@@ -14,6 +14,8 @@ namespace GPIB.Models
         
         public Address()
         {
+            IEntity x = new Address();
+            
         }
     }
 }
