@@ -11,11 +11,5 @@ namespace GPIB.Models
         public Boolean Deleted { get; set; }
         
         public string Address1 { get; set; }
-        
-        public Address()
-        {
-            IEntity x = new Address();
-            
-        }
     }
 }

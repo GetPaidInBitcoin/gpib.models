@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace GPIB.Models.Entities
+namespace GPIB.Models
 {
-    public class Sms : BaseUserEntity, IUserEntity, ISms
+    public class Sms : BaseUserEntity, ISms
     {
         public String Message { get; set; }
 
