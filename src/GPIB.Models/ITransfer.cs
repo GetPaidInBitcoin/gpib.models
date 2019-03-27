@@ -4,11 +4,9 @@ namespace GPIB.Models
 {
     public interface ITransfer : IUserEntity
     {   
-        String Coin { get; set; }
-        
         decimal Amount { get; set; }
         
-        String Address { get; set; }
+        Int32 AddressID { get; set; }
         
         String Tx { get; set; }
         
