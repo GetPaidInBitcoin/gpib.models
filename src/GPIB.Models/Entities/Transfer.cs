@@ -2,7 +2,7 @@ using System;
 
 namespace GPIB.Models
 {
-    public class Transfer : BaseUserEntity, ITransfer
+    public class Transfer : BaseEntity, ITransfer
     {
         public decimal Amount { get; set; }
 
