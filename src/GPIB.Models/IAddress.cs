@@ -4,6 +4,8 @@ namespace GPIB.Models
 {
     public interface IAddress : IUserEntity
     {
+        String Coin { get; set; }
+
         short Percent { get; set; }
 
         String Label { get; set; }

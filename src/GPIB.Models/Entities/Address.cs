@@ -10,6 +10,8 @@ namespace GPIB.Models
 
         public Boolean Deleted { get; set; }
         
-        public string Address1 { get; set; }
+        public String Address1 { get; set; }
+
+        public String Coin { get; set; }
     }
 }
