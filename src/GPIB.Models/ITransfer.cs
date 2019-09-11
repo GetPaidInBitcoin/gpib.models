@@ -12,6 +12,10 @@ namespace GPIB.Models
         
         Decimal Rate { get; set; }
 
+        String Coin { get; set; }
+
         String Address { get; set; }
+
+        Int32 DepositID { get; set; } 
     }
 }
