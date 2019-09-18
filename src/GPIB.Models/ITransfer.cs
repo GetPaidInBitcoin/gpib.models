@@ -16,6 +16,8 @@ namespace GPIB.Models
 
         String Address { get; set; }
 
-        Int32 DepositID { get; set; } 
+        Int32 DepositID { get; set; }
+        
+        String Type { get; set; }
     }
 }
