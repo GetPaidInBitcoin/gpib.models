@@ -13,5 +13,7 @@ namespace GPIB.Models
         public Decimal Rate { get; set; }
 
         public String Address { get; set; }
+        
+        public String Type { get; set; }
     }
 }
