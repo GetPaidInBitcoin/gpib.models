@@ -6,6 +6,8 @@ namespace GPIB.Models
     {
         public decimal Amount { get; set; }
 
+        public decimal Rate { get; set; }
+
         public string Tx { get; set; }
 
         public string Address { get; set; }
