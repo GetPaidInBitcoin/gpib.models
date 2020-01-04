@@ -4,7 +4,7 @@ namespace GPIB.Models
 {
     public class ApplicationUser : IUser
     {
-        public Guid ID { get; set; }
+        public String ID { get; set; }
         
         public String Email { get; set; }
         
