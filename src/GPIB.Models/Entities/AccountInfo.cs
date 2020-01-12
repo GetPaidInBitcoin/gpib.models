@@ -8,10 +8,10 @@ namespace GPIB.Models
 
         public String FirstName { get; set; }
 
+        public String MiddleName { get; set; }
+
         public String LastName { get; set; }
-
-        public String ReferedBy { get; set; }
-
+        
         public DateTime SignUpDate { get; set; }
 
         public Int16 RandomCent { get; set; }
@@ -21,5 +21,9 @@ namespace GPIB.Models
         public String IdVerificationUrl { get; set; }
 
         public String TwoFactorSecret { get; set; }
+
+        public Int32 YOB { get; set; }
+
+        public Int32 BankId { get; set; }
     }
 }
