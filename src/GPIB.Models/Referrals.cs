@@ -21,5 +21,11 @@ namespace GPIB.Models
 
         [Required]
         decimal Rate { get; set; }
+
+        [Required]
+        int DepositId { get; set; }
+
+        [DatabaseGenerated (DatabaseGeneratedOption.Identity)]
+        DateTime Created { get; set; }
     }
 }
