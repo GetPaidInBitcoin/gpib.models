@@ -11,7 +11,7 @@ namespace GPIB.Models {
         decimal CryptoAmount { get; set; }
         decimal Fee { get; set; }
         decimal GST { get; set; }
-        decimal rate { get; set; }
+        decimal Rate { get; set; }
         DateTime Created { get; set; }
     }
 }
