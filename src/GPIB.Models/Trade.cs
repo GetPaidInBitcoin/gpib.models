@@ -6,6 +6,7 @@ namespace GPIB.Models
 {
     public class Trade
     {
+        [Key]
         [Required]
         int ID { get; set; }
 
