@@ -23,7 +23,7 @@ namespace GPIB.Models
         decimal Rate { get; set; }
 
         [Required]
-        int DepositId { get; set; }
+        int DepositID { get; set; }
 
         [DatabaseGenerated (DatabaseGeneratedOption.Identity)]
         DateTime Created { get; set; }
