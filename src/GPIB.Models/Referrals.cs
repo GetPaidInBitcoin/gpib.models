@@ -27,5 +27,6 @@ namespace GPIB.Models
 
         [DatabaseGenerated (DatabaseGeneratedOption.Identity)]
         DateTime Created { get; set; }
+
     }
 }
