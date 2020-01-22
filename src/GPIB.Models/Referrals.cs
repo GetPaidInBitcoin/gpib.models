@@ -8,25 +8,24 @@ namespace GPIB.Models
     {
         [Key]
         [Required]
-        int ID { get; set; }
+        public int ID { get; set; }
 
         [Required]
-        Guid UserID { get; set; }
+        public Guid UserID { get; set; }
 
         [Required]
-        decimal Amount { get; set; }
+        public decimal Amount { get; set; }
 
         [Required]
-        String Coin { get; set; }
+        public String Coin { get; set; }
 
         [Required]
-        decimal Rate { get; set; }
+        public decimal Rate { get; set; }
 
         [Required]
-        int DepositID { get; set; }
+        public int DepositID { get; set; }
 
         [DatabaseGenerated (DatabaseGeneratedOption.Identity)]
-        DateTime Created { get; set; }
-
+        public DateTime Created { get; set; }
     }
 }
