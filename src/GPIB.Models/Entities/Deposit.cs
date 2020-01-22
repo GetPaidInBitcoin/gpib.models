@@ -15,5 +15,6 @@ namespace GPIB.Models
         public string Reference { get; set; }
 
         public Decimal? Fee { get; set; }
+        public DateTime BankTransactionDate { get; set; }
     }
 }
