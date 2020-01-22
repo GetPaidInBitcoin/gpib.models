@@ -8,36 +8,36 @@ namespace GPIB.Models
     {
         [Key]
         [Required]
-        int ID { get; set; }
+        public int ID { get; set; }
 
         [Required]
-        String Exchange { get; set; }
+        public String Exchange { get; set; }
 
         [Required]
-        String ThirdPartyID { get; set; }
+        public String ThirdPartyID { get; set; }
 
         [Required]
-        string Type { get; set; }
+        public string Type { get; set; }
 
         [Required]
-        String Crypto { get; set; }
+        public String Crypto { get; set; }
 
         [Required]
-        String Fiat { get; set; }
+        public String Fiat { get; set; }
 
         [Required]
-        decimal CryptoAmount { get; set; }
+        public decimal CryptoAmount { get; set; }
 
         [Required]
-        decimal Fee { get; set; }
+        public decimal Fee { get; set; }
 
         [Required]
-        decimal GST { get; set; }
+        public decimal GST { get; set; }
 
         [Required]
-        decimal Rate { get; set; }
+        public decimal Rate { get; set; }
 
         [DatabaseGenerated (DatabaseGeneratedOption.Identity)]
-        DateTime Created { get; set; }
+        public DateTime Created { get; set; }
     }
 }

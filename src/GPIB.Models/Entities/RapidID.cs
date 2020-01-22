@@ -1,11 +1,11 @@
 using System;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-
 namespace GPIB.Models
 {
     public class RapidID
     {
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        [DatabaseGenerated (DatabaseGeneratedOption.Identity)]
         public Int32 Id { get; set; }
 
         public RapidIDRequestType RequestType { get; set; }
@@ -22,7 +22,7 @@ namespace GPIB.Models
 
         public Int32 RapidIDClientInfoId { get; set; }
 
-        [ForeignKey("RapidIDClientInfoId")]
+        [ForeignKey ("RapidIDClientInfoId")]
         public RapidIDClientInfo RapidIDClientInfo { get; set; }
     }
 }
