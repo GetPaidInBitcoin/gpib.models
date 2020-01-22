@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace GPIB.Models
 {
-    public class Transfer : BaseUserEntity
+    public class Transfer : BaseUserEntity, IUserEntity
     {
         [Required]
         public decimal Amount { get; set; }

@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace GPIB.Models
 {
-    public class DepositHint : BaseUserEntity
+    public class DepositHint : BaseUserEntity, IUserEntity
     {
         [Required]
         public String EmployerName { get; set; }
@@ -15,8 +15,6 @@ namespace GPIB.Models
 
         [Required]
         public Decimal DepositAmount { get; set; }
-        // [Required]
-        //public PayCycle Cadence { get; set; }
 
         public String PayDay { get; set; }
     }

@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace GPIB.Models
 {
-    public class AccountInfo : BaseUserEntity
+    public class AccountInfo : BaseUserEntity, IUserEntity
     {
         [Required]
         public Decimal Fees { get; set; }

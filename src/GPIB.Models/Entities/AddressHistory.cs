@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 namespace GPIB.Models
 {
-    public class AddressHistory : BaseUserEntity
+    public class AddressHistory : BaseUserEntity, IUserEntity
     {
         [Required]
         public Int32 AddressID { get; set; }

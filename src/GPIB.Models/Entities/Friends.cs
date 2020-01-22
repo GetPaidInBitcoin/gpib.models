@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace GPIB.Models
 {
-    public class Friends : BaseUserEntity
+    public class Friends : BaseUserEntity, IUserEntity
     {
         [Required]
         public String FriendsEmail { get; set; }

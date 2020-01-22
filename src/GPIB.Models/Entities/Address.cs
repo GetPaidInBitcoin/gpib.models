@@ -1,10 +1,9 @@
 using System;
 using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
 
 namespace GPIB.Models
 {
-    public class Address : BaseUserEntity
+    public class Address : BaseUserEntity, IUserEntity
     {
         [Required]
         public short Percent { get; set; }

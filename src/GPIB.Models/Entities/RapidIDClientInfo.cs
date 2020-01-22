@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace GPIB.Models
 {
-    public class RapidIDClientInfo : BaseUserEntity
+    public class RapidIDClientInfo : BaseUserEntity, IUserEntity
     {
         [Required]
         public Int32 AllowedAttempts { get; set; }

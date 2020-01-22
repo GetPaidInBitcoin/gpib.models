@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 namespace GPIB.Models
 {
-    public class Deposit : BaseUserEntity
+    public class Deposit : BaseUserEntity, IUserEntity
     {
         [DatabaseGenerated (DatabaseGeneratedOption.Identity)]
         public DateTime Created { get; set; }
