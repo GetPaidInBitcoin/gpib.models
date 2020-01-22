@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace GPIB.Models
 {
-    public class Referrals
+    public class Referrals : IUserEntity
     {
         [Key]
         [Required]
