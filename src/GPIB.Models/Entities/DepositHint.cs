@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace GPIB.Models
 {
-    public class DepositHint : BaseUserEntity, IDepositHint
+    public class DepositHint : BaseUserEntity
     {
         [Required]
         public String EmployerName { get; set; }

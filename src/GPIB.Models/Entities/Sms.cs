@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 namespace GPIB.Models
 {
-    public class Sms : BaseUserEntity, ISms
+    public class Sms : BaseUserEntity
     {
         [Required]
         public String Message { get; set; }
