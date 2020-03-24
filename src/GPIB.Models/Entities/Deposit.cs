@@ -5,7 +5,6 @@ namespace GPIB.Models
 {
     public class Deposit : BaseUserEntity, IUserEntity
     {
-        [DatabaseGenerated (DatabaseGeneratedOption.Identity)]
         public DateTime Created { get; set; }
 
         [Required]
@@ -15,6 +14,7 @@ namespace GPIB.Models
         public string Reference { get; set; }
 
         public Decimal? Fee { get; set; }
+
         public DateTime BankTransactionDate { get; set; }
     }
 }
