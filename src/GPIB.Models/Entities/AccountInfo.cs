@@ -6,7 +6,6 @@ namespace GPIB.Models
 {
     public class AccountInfo : BaseUserEntity, IUserEntity
     {
-        [Required]
         public Decimal Fees { get; set; }
 
         public String FirstName { get; set; }
