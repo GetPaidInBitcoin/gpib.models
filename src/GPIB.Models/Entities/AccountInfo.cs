@@ -6,6 +6,7 @@ namespace GPIB.Models
 {
     public class AccountInfo : BaseUserEntity, IUserEntity
     {
+        [Required]
         public Decimal Fees { get; set; }
 
         public String FirstName { get; set; }
@@ -14,7 +15,6 @@ namespace GPIB.Models
 
         public String LastName { get; set; }
 
-        [DatabaseGenerated (DatabaseGeneratedOption.Identity)]
         public DateTime SignUpDate { get; set; }
 
         [Required]
@@ -27,7 +27,7 @@ namespace GPIB.Models
 
         public String TwoFactorSecret { get; set; }
 
-        public Int32 YOB { get; set; }
+        public Int32? YOB { get; set; }
 
         [Required]
         public Int32 BankId { get; set; }
