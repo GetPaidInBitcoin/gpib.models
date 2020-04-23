@@ -3,11 +3,11 @@ using System.ComponentModel.DataAnnotations;
 
 namespace GPIB.Models
 {
-    public abstract class BaseUserEntity
+    public abstract class BaseThirdPartyEntity
     {
         [Required]
         public int ID { get; set; }
 
-        public Guid UserID { get; set; }
+        public Guid ThirdPartyID { get; set; }
     }
 }

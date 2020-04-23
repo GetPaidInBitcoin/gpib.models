@@ -1,10 +1,9 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
 
 namespace GPIB.Models
 {
-    public class AccountInfo : BaseUserEntity, IUserEntity
+    public class AccountInfo : BaseUserEntity, IUserEntity, IThirdPartyEntity
     {
         [Required]
         public Decimal Fees { get; set; }
@@ -31,5 +30,7 @@ namespace GPIB.Models
 
         [Required]
         public Int32 BankId { get; set; }
+
+        public Guid ThirdPartyID { get; set; }
     }
 }

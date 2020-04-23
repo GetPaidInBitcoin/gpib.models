@@ -1,10 +1,9 @@
 using System;
 using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
 
 namespace GPIB.Models
 {
-    public class BankAccount : BaseEntity
+    public class BankAccount : BaseThirdPartyEntity, IThirdPartyEntity
     {
         [Required]
         [MaxLength(255)]
