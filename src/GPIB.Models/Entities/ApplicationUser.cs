@@ -1,6 +1,6 @@
 using System;
 using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
+
 namespace GPIB.Models
 {
     public class ApplicationUser
@@ -13,5 +13,9 @@ namespace GPIB.Models
         public Boolean EmailConfirmed { get; set; }
 
         public String PasswordHash { get; set; }
+
+        public String PhoneNumber { get; set; }
+
+        public Boolean PhoneNumberConfirmed { get; set; }
     }
 }
