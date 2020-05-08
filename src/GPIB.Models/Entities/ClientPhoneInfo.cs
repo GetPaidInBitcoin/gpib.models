@@ -3,7 +3,7 @@ using System;
 
 namespace GPIB.Models
 {
-    public class ClientPhoneInfo : BaseUserEntity,IEntity,IUserEntity
+    public class ClientPhoneInfo : BaseUserEntity, IEntity, IUserEntity
     {
         public string PhoneNumber { get; set; }
         public bool PhoneNumberConfirmed { get; set; }
