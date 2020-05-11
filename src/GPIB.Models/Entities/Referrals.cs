@@ -4,20 +4,15 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace GPIB.Models
 {
-    public class Referrals : IUserEntity
+    public class Referrals : BaseUserEntity, IUserEntity
     {
-        [Key]
-        [Required]
-        public int ID { get; set; }
+        public Guid FriendUserID { get; set; }
 
         [Required]
-        public Guid UserID { get; set; }
+        public decimal FixedAmount { get; set; }
 
         [Required]
-        public decimal Amount { get; set; }
-
-        [Required]
-        public String Coin { get; set; }
+        public decimal PercentageAmount { get; set; }
 
         [Required]
         public decimal Rate { get; set; }
