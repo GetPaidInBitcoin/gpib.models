@@ -9,18 +9,25 @@ namespace GPIB.Models
         public Guid FriendUserID { get; set; }
 
         [Required]
+        public int DepositID { get; set; }
+
+        [Required]
         public decimal FixedAmount { get; set; }
 
         [Required]
         public decimal PercentageAmount { get; set; }
 
         [Required]
+        public string Coin { get; set; }
+
+        [Required]
         public decimal Rate { get; set; }
 
         [Required]
-        public int DepositID { get; set; }
+        public bool Enabled { get; set; }
 
-        [DatabaseGenerated (DatabaseGeneratedOption.Identity)]
         public DateTime Created { get; set; }
+
+        public DateTime Expires { get; set; }
     }
 }
