@@ -9,6 +9,6 @@ namespace GPIB.Models
         public String FriendsEmail { get; set; }
 
         [Required]
-        public Int32 PromotionID { get; set; }
+        public Int32 promotionID { get; set; }
     }
 }

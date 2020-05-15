@@ -6,7 +6,7 @@ namespace GPIB.Models
     public class ReferralPayments : BaseEntity, IEntity
     {
         [Required]
-        public int DepositID { get; set; }
+        public int depositID { get; set; }
 
         [Required]
         public decimal Amount { get; set; }

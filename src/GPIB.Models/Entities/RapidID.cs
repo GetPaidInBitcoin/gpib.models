@@ -6,7 +6,7 @@ namespace GPIB.Models
     public class RapidID
     {
         [DatabaseGenerated (DatabaseGeneratedOption.Identity)]
-        public Int32 Id { get; set; }
+        public Int32 ID { get; set; }
 
         public RapidIDRequestType RequestType { get; set; }
 
