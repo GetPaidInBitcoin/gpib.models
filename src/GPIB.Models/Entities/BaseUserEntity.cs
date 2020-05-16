@@ -8,6 +8,6 @@ namespace GPIB.Models
         [Required]
         public int ID { get; set; }
 
-        public Guid userID { get; set; }
+        public Guid UserID { get; set; }
     }
 }

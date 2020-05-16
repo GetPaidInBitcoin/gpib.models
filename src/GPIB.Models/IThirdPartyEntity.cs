@@ -4,6 +4,6 @@ namespace GPIB.Models
 {
     public interface IThirdPartyEntity : IEntity
     {
-        Guid thirdPartyID { get; set; }
+        Guid ThirdPartyID { get; set; }
     }
 }

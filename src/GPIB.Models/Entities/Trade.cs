@@ -14,7 +14,7 @@ namespace GPIB.Models
         public String Exchange { get; set; }
 
         [Required]
-        public String thirdPartyID { get; set; }
+        public String ThirdPartyID { get; set; }
 
         [Required]
         public string Type { get; set; }

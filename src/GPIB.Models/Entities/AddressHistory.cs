@@ -6,7 +6,7 @@ namespace GPIB.Models
     public class AddressHistory : BaseUserEntity, IUserEntity
     {
         [Required]
-        public Int32 addressID { get; set; }
+        public Int32 AddressID { get; set; }
 
         [Required]
         public String IPAddress { get; set; }

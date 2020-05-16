@@ -29,6 +29,6 @@ namespace GPIB.Models
         public Int32? YOB { get; set; }
 
         [Required]
-        public Int32 bankID { get; set; }
+        public Int32 BankID { get; set; }
     }
 }

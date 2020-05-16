@@ -14,7 +14,7 @@ namespace GPIB.Models
         public string Reference { get; set; }
         
         [Required]
-        public Int32 bankID { get; set; }
+        public Int32 BankID { get; set; }
 
         public Decimal? Fee { get; set; }
 

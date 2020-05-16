@@ -25,6 +25,6 @@ namespace GPIB.Models
         public String Coin { get; set; }
 
         [Required]
-        public Int32 depositID { get; set; }
+        public Int32 DepositID { get; set; }
     }
 }

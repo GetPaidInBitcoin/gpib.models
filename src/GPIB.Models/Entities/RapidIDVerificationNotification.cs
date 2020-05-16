@@ -9,7 +9,7 @@ namespace GPIB.Models
         public string Name { get; set; }
 
         [Required]
-        public Guid userID { get; set; }
+        public Guid UserID { get; set; }
         public string PEPStatus { get; set; }
         public string SMSStatus { get; set; }
     }

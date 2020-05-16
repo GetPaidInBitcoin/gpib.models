@@ -6,10 +6,10 @@ namespace GPIB.Models
 {
     public class Referrals : BaseUserEntity, IUserEntity
     {
-        public Guid friendUserID { get; set; }
+        public Guid FriendUserID { get; set; }
 
         [Required]
-        public int depositID { get; set; }
+        public int DepositID { get; set; }
 
         [Required]
         public decimal FixedAmount { get; set; }
