@@ -1,15 +1,11 @@
 using System;
 using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
 
 namespace GPIB.Models
 {
     public class Referrals : BaseUserEntity, IUserEntity
     {
         public Guid FriendUserID { get; set; }
-
-        [Required]
-        public int DepositID { get; set; }
 
         [Required]
         public decimal FixedAmount { get; set; }
