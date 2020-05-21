@@ -21,7 +21,7 @@ namespace GPIB.Models
 
         public Boolean PhoneNumberConfirmed { get; set; }
 
-        public DateTime LockoutEndDateUtc { get; set; }
+        public DateTime? LockoutEndDateUtc { get; set; }
 
         public Boolean LockoutEnabled { get; set; }
 
