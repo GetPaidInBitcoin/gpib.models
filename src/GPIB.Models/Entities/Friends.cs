@@ -3,6 +3,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace GPIB.Models
 {
+    [Obsolete]
     public class Friends : BaseUserEntity, IUserEntity
     {
         [Required]
