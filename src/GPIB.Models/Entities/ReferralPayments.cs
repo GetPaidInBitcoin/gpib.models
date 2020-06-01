@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace GPIB.Models
 {
-    public class ReferralPayments : BaseEntity, IEntity
+    public class ReferralPayments : BaseUserEntity, IEntity
     {
         [Required]
         public int DepositID { get; set; }
