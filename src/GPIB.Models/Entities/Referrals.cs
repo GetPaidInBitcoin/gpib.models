@@ -17,9 +17,6 @@ namespace GPIB.Models
         public string Coin { get; set; }
 
         [Required]
-        public decimal Rate { get; set; }
-
-        [Required]
         public bool Enabled { get; set; }
 
         public DateTime Created { get; set; }
