@@ -25,6 +25,8 @@ namespace GPIB.Models
 
         public Boolean LockoutEnabled { get; set; }
 
+        public Boolean TwoFactorEnabled { get; set; }
+
         public Int32 AccessFailedCount { get; set; }
 
         public String UserName { get; set; }
