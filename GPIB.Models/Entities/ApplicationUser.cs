@@ -6,7 +6,7 @@ namespace GPIB.Models
     public class ApplicationUser
     {
         [Required]
-        public String ID { get; set; }
+        public Guid ID { get; set; }
 
         public String Email { get; set; }
 
