@@ -22,7 +22,6 @@ namespace GPIB.Models
 
         public Int32 RapidIDClientInfoId { get; set; }
 
-        [ForeignKey ("RapidIDClientInfoId")]
         public RapidIDClientInfo RapidIDClientInfo { get; set; }
     }
 }

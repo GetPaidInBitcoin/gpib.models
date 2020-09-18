@@ -11,7 +11,6 @@ namespace GPIB.Models
 
         public String Tx { get; set; }
 
-        [DatabaseGenerated (DatabaseGeneratedOption.Identity)]
         public DateTime Created { get; set; }
 
         [Required]

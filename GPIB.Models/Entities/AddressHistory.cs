@@ -11,7 +11,6 @@ namespace GPIB.Models
         [Required]
         public String IPAddress { get; set; }
 
-        [DatabaseGenerated (DatabaseGeneratedOption.Identity)]
         public DateTime Created { get; set; }
 
         public String Message { get; set; }

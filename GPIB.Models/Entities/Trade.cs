@@ -37,7 +37,6 @@ namespace GPIB.Models
         [Required]
         public decimal Rate { get; set; }
 
-        [DatabaseGenerated (DatabaseGeneratedOption.Identity)]
         public DateTime Created { get; set; }
     }
 }

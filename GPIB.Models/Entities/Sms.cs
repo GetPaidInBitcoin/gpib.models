@@ -8,7 +8,6 @@ namespace GPIB.Models
         [Required]
         public String Message { get; set; }
 
-        [DatabaseGenerated (DatabaseGeneratedOption.Identity)]
         public DateTime Sent { get; set; }
 
         [Required]

@@ -20,7 +20,6 @@ namespace GPIB.Models
         [Required]
         public string Coin { get; set; }
 
-        [DatabaseGenerated (DatabaseGeneratedOption.Identity)]
         public DateTime Created { get; set; }
     }
 }
