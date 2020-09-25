@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 namespace GPIB.Models
 {
-    public class Settings : BaseUserEntity, IUserEntity
+    public class Settings
     {
         public Boolean Require2FAOnLogin { get; set; }
 
