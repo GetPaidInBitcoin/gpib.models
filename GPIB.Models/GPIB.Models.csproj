@@ -2,10 +2,10 @@
     <PropertyGroup>
         <TargetFramework>netcoreapp2.1</TargetFramework>
         <PackageId>GPIB.Models</PackageId>
-        <Version>3.0.0</Version>
+        <Version>3.0.5</Version>
         <Authors>Lucas Cullen</Authors>
         <Company>Bitcoin Brisbane</Company>
-        <PackageVersion>3.0.3</PackageVersion>
+        <PackageVersion>3.0.5</PackageVersion>
         <Title>Get Paid In Bitcoin Models</Title>
         <PackageProjectUrl>https://github.com/getpaidinbitcoin/</PackageProjectUrl>
         <RepositoryUrl>https://github.com/getpaidinbitcoin/gpib.models</RepositoryUrl>
