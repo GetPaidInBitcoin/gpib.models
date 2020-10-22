@@ -1,7 +1,7 @@
 using System;
 using GPIB.Models;
 
-namespace GPIB.Admin.WebAPI.Models
+namespace GPIB.Models
 {
     public class Enterprise : BaseEntity
     {
