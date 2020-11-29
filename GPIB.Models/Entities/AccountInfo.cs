@@ -16,6 +16,8 @@ namespace GPIB.Models
 
         public DateTime SignUpDate { get; set; }
 
+        public String OfferCode {get; set;}
+
         [Required]
         public Int16 RandomCent { get; set; }
 
